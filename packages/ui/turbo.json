@@ -1,17 +1,28 @@
 {
-  "extends": ["//"],
+  "extends": [
+    "//"
+  ],
   "tasks": {
     "build": {
-      "dependsOn": ["build:styles", "build:components"]
+      "dependsOn": [
+        "build:styles"
+      ]
     },
     "build:styles": {
-      "outputs": ["dist/**"]
+      "outputs": [
+        "dist/**"
+      ]
     },
     "build:components": {
-      "outputs": ["dist/**"]
+      "outputs": [
+        "dist/**"
+      ]
     },
     "dev": {
-      "with": ["dev:styles", "dev:components"]
+      "with": [
+        "dev:styles",
+        "dev:components"
+      ]
     },
     "dev:styles": {
       "cache": false,
