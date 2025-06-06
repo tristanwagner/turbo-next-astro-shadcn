@@ -1,12 +1,12 @@
 ---
 // Component Imports
-import Layout from '@/layouts/main.astro';
-import { Button } from '@repo/ui/components/button';
-import { ModeToggle } from '@repo/ui/components/ModeToggle';
+import Layout from "@/layouts/main.astro";
+import { Button } from "@repo/ui/components/button";
+import { ModeToggle } from "@repo/ui/components/ModeToggle";
 ---
 
 <Layout title="Astro">
-  <main class="flex flex-col items-center justify-between min-h-screen p-24">
+  <main class="flex min-h-screen flex-col items-center justify-between p-24">
     <Button>Shadcn Button in Astro!</Button>
     <ModeToggle client:only={"react"} />
   </main>
