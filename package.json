@@ -1,5 +1,5 @@
 {
-  "name": "with-tailwind",
+  "name": "turbo-next-astro-shadcn",
   "private": true,
   "scripts": {
     "build": "turbo run build",
