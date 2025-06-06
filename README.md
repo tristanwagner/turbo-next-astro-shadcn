@@ -19,9 +19,9 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `website`: an [Astro](https://astro.dev/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `webapp`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/) shared by both `website` and `webapp` applications
+- `website`: an [Astro](https://astro.dev/) app with [Tailwind CSS](https://tailwindcss.com/), should be used for landing page, blogs, static stuff..
+- `webapp`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/), should be used for web app purposes, heavily dynamic UIs and stuff like that...
+- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/) components shared by both `website` and `webapp` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 - `@repo/tailwind-config`: `tailwind config` used throughout the monorepo
@@ -36,3 +36,4 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+- [husky](https://typicode.github.io/husky/) for git hooks
